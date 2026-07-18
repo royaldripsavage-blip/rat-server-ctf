@@ -6,8 +6,11 @@
     "start": "node src/app.js"
   },
   "dependencies": {
+    "body-parser": "^2.3.0",
+    "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "multer": "^2.2.0",
     "node-telegram-bot-api": "^1.2.0",
     "ws": "^8.21.1"
   }
